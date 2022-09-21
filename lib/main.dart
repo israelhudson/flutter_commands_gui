@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:process_run/shell.dart';
 
 void main() {
-  // This works on Windows/Linux/Mac
   runApp(const MyApp());
 }
 
@@ -20,7 +19,6 @@ Future<String> executeShell() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
